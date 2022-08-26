@@ -1,4 +1,4 @@
-# Digitezed records
+# Digitized records
 
 This folder contains digitized records separated in different files according to the method of observation:
 * records_hv - horizontal and vertical wires
@@ -7,7 +7,7 @@ This folder contains digitized records separated in different files according to
 * records_st - single transits
 * records_w3 - 3-wires scheme 
 
-
+## Data description
 | Column name   |      Description      |
 |----------|----------|
 | obs_id |  Unique id of the record | 
