@@ -16,5 +16,5 @@ This folder contains digitized records separated in different files according to
 | object| Object type: "S" for the solar disk, "t" for sunspot (tache in French) |
 | event|  Name of the contacting wire. "?" means that the wire was not specified in the records. | 
 | rising | True, if we assume that the record is before noon |
-| pole|  Indication of the solar pole (following the original notation). "N" is for the north pole, "S" is for the south pole, "SP" is for the superieur bord (we assume it is the same as "N"), "IN" is for the inférieur bord (we assume it is the same as "S"). Black cells mean that the pole was not specified in the records and we could not unambiguously identify it from the records before or after this day.  | 
+| pole|  Indication of the solar pole (following the original notation). "N" is for the north pole, "S" is for the south pole, "SP" is for the superieur bord (we assume it is the same as "N"), "IN" is for the inférieur bord (we assume it is the same as "S"). Blank cells mean that the pole was not specified in the records and we could not unambiguously identify it from the records before or after this day.  | 
 
