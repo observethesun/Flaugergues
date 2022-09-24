@@ -16,8 +16,9 @@ coordinates.csv
 
 | Column name   |      Description      |
 |----------|----------|
-| obs_id |  Unique id of the record | 
-| recorded_time |  Original start time of the record | 
+| obs_id |  Unique id of the record (note the the record can contain several spots) | 
+| recorded_time |  Original start time of the record |
+| sidereal | True, if recorded time is sidereal | 
 | utc_time |  Estimated UTC time corresponding to the recorded_time |
 | name | Sunspot name |
 | lat |  Latitude | 
@@ -51,7 +52,7 @@ sunspots.csv
 | cmd_mean | Mean central meridian distance |
 | cmd_std | Standard deviation for the central meridian distance |
 | n | Number of records used in averaging |
-| confirmed | True, if there are sunspots with similar coordinates before or after this day |
+| reliable | True, if there are sunspots with similar coordinates before or after this day |
 
 For description of the digitized data see the folder [records](/records).
 

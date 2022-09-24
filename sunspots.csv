@@ -1,4 +1,4 @@
-date,name,lat_mean,lat_std,long_mean,long_std,cmd_mean,cmd_std,n,confirmed
+date,name,lat_mean,lat_std,long_mean,long_std,cmd_mean,cmd_std,n,reliable
 1795-02-12,t,11.33980832,,226.1043979,,11.08584256,,1,FALSE
 1795-03-03,t,-7.503463524,0.259047421,293.4558456,0.538609527,-30.84964323,0.547520271,4,TRUE
 1795-03-04,t_grande,-7.587918864,0.765694002,293.804902,0.298988392,-17.13143788,0.334706462,5,TRUE
