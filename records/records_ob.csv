@@ -1,4 +1,4 @@
-obs_id,recorded_time,modified_time,object,event,rising,siderial,pole
+obs_id,recorded_time,modified_time,object,event,rising,sidereal,pole
 1,1795-02-12 11:41:29.000,,t,ob,TRUE,FALSE,
 1,1795-02-12 11:41:32.000,,S,hr,TRUE,FALSE,
 1,1795-02-12 11:42:21.500,,t,hr,TRUE,FALSE,

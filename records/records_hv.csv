@@ -1,4 +1,4 @@
-obs_id,recorded_time,modified_time,object,event,rising,siderial,pole
+obs_id,recorded_time,modified_time,object,event,rising,sidereal,pole
 20,1796-07-05 09:19:28.000,1796-07-05 09:19:14.000,S,h,TRUE,FALSE,
 20,1796-07-05 09:19:14.000,1796-07-05 09:19:28.000,S,v,TRUE,FALSE,
 20,1796-07-05 09:20:39.000,1796-07-05 09:21:39.000,t_B,h,TRUE,FALSE,

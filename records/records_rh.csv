@@ -1,4 +1,4 @@
-obs_id,recorded_time,modified_time,object,event,rising,siderial,pole
+obs_id,recorded_time,modified_time,object,event,rising,sidereal,pole
 173,1813-02-03 00:01:01.000,,S,in,FALSE,TRUE,N
 173,1813-02-03 00:02:41.000,,t,in,FALSE,TRUE,N
 173,1813-02-03 00:04:29.000,,t,out,FALSE,TRUE,N
