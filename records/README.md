@@ -1,6 +1,7 @@
 # Digitized records
 
 This folder contains digitized records separated in different files according to the method of observation:
+* records_ec - eclipses
 * records_hv - horizontal and vertical wires
 * records_ob - oblique wires
 * records_rh - rhomboid scheme
