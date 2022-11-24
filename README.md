@@ -25,7 +25,7 @@ coordinates.csv
 | long |  Carrington longitude | 
 | cmd | Central meridian distance |
 | outlier | True, if we assume the record is invalid | 
-| type | Type of measurements: "hv" for horizontal and vertical wires, "ob" for oblique wires, "rh" for rhomboid scheme |
+| type | Type of measurements: "hv" for horizontal and vertical wires, "ob" for oblique wires, "rh" for rhomboid scheme, "ec" for eclipse |
 | x | x-coordinate in the primary coordinate system (see the paper for definition) |
 | y | y-coordinate in the primary coordinate system (see the paper for definition) |  
 | l0 | Solar L0 angle for the time of observation | 
