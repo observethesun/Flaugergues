@@ -7,6 +7,7 @@ from observations by Flaugergues in the Dalton minimum]()
 
 ## Contents
 * [records](/records) - files with digitized records, separated by observation schemes
+* [utils](/utils) - source functions for calculation of heliographic coordinates
 * coordinates.csv - reconstructed coordinates for each record
 * sunspots.csv - sunspot positions averaged over multiple records for the day
 
@@ -21,21 +22,22 @@ coordinates.csv
 | sidereal | True, if recorded time is sidereal | 
 | utc_time |  Estimated UTC time corresponding to the recorded_time |
 | name | Sunspot name |
-| lat |  Latitude | 
-| long |  Carrington longitude | 
-| cmd | Central meridian distance |
+| lat |  Latitude (degrees)| 
+| long |  Carrington longitude (degrees)| 
+| cmd | Central meridian distance (degrees)|
 | outlier | True, if we assume the record is invalid | 
 | type | Type of measurements: "hv" for horizontal and vertical wires, "ob" for oblique wires, "rh" for rhomboid scheme, "ec" for eclipse |
-| x | x-coordinate in the primary coordinate system (see the paper for definition) |
-| y | y-coordinate in the primary coordinate system (see the paper for definition) |  
-| l0 | Solar L0 angle for the time of observation | 
-| b0 | Solar B0 angle for the time of observation |
-| p | Solar P angle for the time of observation |
-| incl | Angle between the line of solar motion and the parallel line of the telescope for the time and place of observation |
-| incl_obs | Angle between the line of solar motion and the parallel line of the telescope derived from the record (if applicable) |
-| err | Positioning error (if applicable) |
-| r_sun | Solar "radius" measured in time units |
+| x | x-coordinate in the coordinate system aligned with solar motion (see the paper for definition) |
+| y | y-coordinate in the coordinate system aligned with solar motion (see the paper for definition) |  
 | rising | True, if we assume that the record is before noon |
+| l0 | Solar L0 angle (degrees) for the time of observation | 
+| b0 | Solar B0 angle (degrees) for the time of observation |
+| p | Solar P angle (degrees) for the time of observation |
+| incl | Angle (degrees) between the line of solar motion and the parallel line of the telescope for the time and place of observation |
+| incl_obs | Angle (degrees) between the line of solar motion and the parallel line of the telescope derived from the record (if applicable) |
+| incl_diff | Calculated absolute difference (in degrees) between inclination of the line of solar motion at the beginning of the observation and at the end of the observation |
+| err | Positioning error (degrees, if applicable) |
+| r_sun | Solar "radius" measured in time units (seconds) |
 | modified | True, if original record was modified to correct possible miswritings | 
 | complemented | True, if we complemented the original record with additional information that allows reconstruction of coordinates | 
 
