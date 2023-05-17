@@ -1,9 +1,9 @@
 # Flaugergues
 
-This repository contains digitized records and reconstructed sunspot positions from observations by amateur astronomer [H. Flaugergues](https://en.wikipedia.org/wiki/Honor%C3%A9_Flaugergues) in the period 1795–1830.
+This repository contains digitized records and reconstructed sunspot positions from observations by French astronomer [H. Flaugergues](https://en.wikipedia.org/wiki/Honor%C3%A9_Flaugergues) in the period 1788–1830.
 
 Destription of the method is presented in the paper [Sunspot positions 
-from observations by Flaugergues in the Dalton minimum]()
+from observations by Flaugergues in the Dalton Minimum](https://doi.org/10.1093/mnras/stad1489)
 
 ## Contents
 * [records](/records) - files with digitized records, separated by observation schemes
@@ -58,6 +58,6 @@ sunspots.csv
 
 For description of the digitized data see the folder [records](/records).
 
-## Citing this work
+## Cite
 ```
-Illarionov, E., Arlt, R. Sunspot positions from observations by Flaugergues in the Dalton minimum. 2022
+Egor Illarionov, Rainer Arlt, Sunspot positions from observations by Flaugergues in the Dalton Minimum, Monthly Notices of the Royal Astronomical Society, 2023; https://doi.org/10.1093/mnras/stad1489
